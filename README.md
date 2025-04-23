@@ -11,7 +11,7 @@ git clone https://github.com/Dixie-Dean/coding-challenge.git
 ```
 2. Перейти в директорию проекта:
 ```bash
-cd imager-service
+cd coding-challenge
 ```
 3. Собрать проект с помощью Maven:
 ```bash
