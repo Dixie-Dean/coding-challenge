@@ -37,6 +37,10 @@ public class ApplicationController {
 
         int[] array = numbers.stream().mapToInt(Integer::intValue).toArray();
 
+        if (n > array.length) {
+            return new ResponseEntity<>(-1, HttpStatus.BAD_REQUEST);
+        }
+
         for (int i = 0; i < n; i++) {
             int minNumIndex = i;
 
